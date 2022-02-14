@@ -8,7 +8,7 @@
 #SBATCH -A TG-MPS150006 
 set -x	 # Echo commands, use set echo with csh
 
-PREFIX="BAs_20"
+PREFIX="BAs_110"
 PSEUDO_DIR="./pseudo_dir" #Set to your pseudo directory
 INFILE="$PREFIX.in"
 OUTFILE="$PREFIX.out"
