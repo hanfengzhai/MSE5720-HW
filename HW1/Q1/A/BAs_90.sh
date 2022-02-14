@@ -3,7 +3,7 @@
 #SBATCH -o BAs.o%j	 # Name of the error and output files (%j appends the jobID)
 #SBATCH -N 1             # Requests nodes
 #SBATCH -n 32	         # Requests number of tasks, in multiples of 64 
-#SBATCH -p normal	 # Queue name: development (max 2 hr walltime) or normal
+#SBATCH -p development	 # Queue name: development (max 2 hr walltime) or normal
 #SBATCH -t 00:30:00	 # Run time (hh:mm:ss) 
 #SBATCH -A TG-MPS150006 
 set -x	 # Echo commands, use set echo with csh
