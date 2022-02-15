@@ -27,8 +27,8 @@ cat > $INFILE << EOF
  celldm(1)=9.d0,
  nat=2,
  ntyp=2,
- ecutwfc=80,
- ecutrho=900,
+ ecutwfc=50,
+ ecutrho=600,
  occupations = 'fixed',
  use_all_frac = .true.,
 /
