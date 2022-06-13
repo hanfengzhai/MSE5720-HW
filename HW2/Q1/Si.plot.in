@@ -1,0 +1,5 @@
+&BANDS
+ prefix='Si',
+ filband="Si.bandsplot"
+/
+

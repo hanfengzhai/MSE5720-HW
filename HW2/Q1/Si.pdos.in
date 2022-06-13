@@ -1,0 +1,6 @@
+&PROJWFC
+ prefix='Si',
+ Emin=-8, Emax=18, DeltaE=0.01
+ filpdos='Si.pdos',
+ filproj='Si.proj'
+/

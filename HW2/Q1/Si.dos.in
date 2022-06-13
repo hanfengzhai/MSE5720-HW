@@ -1,0 +1,5 @@
+&DOS
+ prefix='Si',
+ fildos='Si.dos'
+ Emin=-8, Emax=18, DeltaE=0.1 
+/
