@@ -1,0 +1,60 @@
++ PREFIX=calcite
++ PSEUDO_DIR=./
++ INFILE=calcite.new_case30.in
++ OUTFILE=calcite.new_case30.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ pw.x
++ INFILE=calcite.phon_newcase_30.in
++ OUTFILE=calcite.phon_newcase_30.out
++ cat
++ ph.x -ndiag 1
++ rm '*.igk' calcite.wfc1
+rm: cannot remove ‘*.igk’: No such file or directory
++ rm -r calcite.save
++ rm -r _ph0

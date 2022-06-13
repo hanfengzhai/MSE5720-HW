@@ -1,0 +1,408 @@
+
+     Program PHONON v.7.0 starts on 29Apr2022 at 11:14:19 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     90785 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+
+     Reading xml data from directory:
+
+     ./caco3.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        4243    1703    505               160901    40759    6591
+ 
+     Using Slab Decomposition
+ 
+
+     Check: negative core charge=   -0.000002
+     Reading collected, re-writing distributed wavefunctions
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     Phonons of CaCO3                                                           
+
+     bravais-lattice index     =            5
+     lattice parameter (alat)  =      12.1600  a.u.
+     unit-cell volume          =     852.1729 (a.u.)^3
+     number of atoms/cell      =           10
+     number of atomic types    =            3
+     kinetic-energy cut-off    =      50.0000  Ry
+     charge density cut-off    =     500.0000  Ry
+     convergence threshold     =      1.0E-16
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   12.16000  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.69320  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  0.3917 -0.2261  0.8919 )  
+               a(2) = (  0.0000  0.4523  0.8919 )  
+               a(3) = ( -0.3917 -0.2261  0.8919 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.2766 -0.7370  0.3737 )  
+               b(2) = (  0.0000  1.4741  0.3737 )  
+               b(3) = ( -1.2766 -0.7370  0.3737 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1     Ca  40.0780   tau(    1) = (    0.00000   -0.00000    1.33783  )
+        2     Ca  40.0780   tau(    2) = (    0.00000    0.00000    0.00000  )
+        3     C   12.0107   tau(    3) = (    0.00000   -0.00000    0.66892  )
+        4     C   12.0107   tau(    4) = (    0.00000   -0.00000    2.00675  )
+        5     O   15.9990   tau(    5) = (    0.10066    0.27791    1.56081  )
+        6     O   15.9990   tau(    6) = (    0.19035   -0.22613    1.56081  )
+        7     O   15.9990   tau(    7) = (   -0.29100   -0.05178    1.56081  )
+        8     O   15.9990   tau(    8) = (   -0.19035    0.22613    1.11486  )
+        9     O   15.9990   tau(    9) = (    0.29100    0.05178    1.11486  )
+       10     O   15.9990   tau(   10) = (   -0.10066   -0.27791    1.11486  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+     13 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff = 1872.7397  ( 160901 G-vectors)     FFT grid: ( 90, 90, 90)
+     G cutoff =  749.0959  (  40759 G-vectors)  smooth grid: ( 60, 60, 60)
+     number of k points=    32
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0092593
+        k(    2) = (  -0.2127679  -0.1228416   0.0622897), wk =   0.0555556
+        k(    3) = (  -0.4255358  -0.2456832   0.1245795), wk =   0.0555556
+        k(    4) = (   0.6383037   0.3685248  -0.1868692), wk =   0.0277778
+        k(    5) = (  -0.2127679   0.1228416   0.1245795), wk =   0.0555556
+        k(    6) = (  -0.4255358   0.0000000   0.1868692), wk =   0.1111111
+        k(    7) = (   0.6383037   0.6142080  -0.1245795), wk =   0.1111111
+        k(    8) = (   0.4255358   0.4913664  -0.0622897), wk =   0.1111111
+        k(    9) = (   0.2127679   0.3685248   0.0000000), wk =   0.0555556
+        k(   10) = (  -0.4255358   0.2456832   0.2491590), wk =   0.0555556
+        k(   11) = (   0.6383037   0.8598912  -0.0622897), wk =   0.1111111
+        k(   12) = (   0.4255358   0.7370496   0.0000000), wk =   0.0555556
+        k(   13) = (   0.6383037  -0.3685248  -0.3737384), wk =   0.0277778
+        k(   14) = (   0.0000000   0.0000000   0.1868692), wk =   0.0185185
+        k(   15) = (  -0.2127679  -0.1228416   0.2491590), wk =   0.0555556
+        k(   16) = (   0.8510715   0.4913664  -0.0622897), wk =   0.0555556
+        k(   17) = (   0.6383037   0.3685248   0.0000000), wk =   0.0555556
+        k(   18) = (   0.4255358   0.2456832   0.0622897), wk =   0.0555556
+        k(   19) = (  -0.2127679   0.1228416   0.3114487), wk =   0.0555556
+        k(   20) = (   0.8510715   0.7370496   0.0000000), wk =   0.1111111
+        k(   21) = (   0.6383037   0.6142080   0.0622897), wk =   0.1111111
+        k(   22) = (   0.4255358   0.4913664   0.1245795), wk =   0.1111111
+        k(   23) = (   0.8510715  -0.4913664  -0.3114487), wk =   0.0555556
+        k(   24) = (   0.6383037  -0.6142080  -0.2491590), wk =   0.1111111
+        k(   25) = (   0.4255358  -0.7370496  -0.1868692), wk =   0.0555556
+        k(   26) = (   0.6383037  -0.3685248  -0.1868692), wk =   0.0555556
+        k(   27) = (   0.0000000   0.0000000   0.3737384), wk =   0.0185185
+        k(   28) = (   1.0638394   0.6142080   0.0622897), wk =   0.0555556
+        k(   29) = (   0.8510715   0.4913664   0.1245795), wk =   0.0555556
+        k(   30) = (   1.0638394  -0.6142080  -0.2491590), wk =   0.0555556
+        k(   31) = (   0.8510715  -0.7370496  -0.1868692), wk =   0.0555556
+        k(   32) = (   0.0000000   0.0000000  -0.5606076), wk =   0.0092593
+
+     PseudoPot. # 1 for Ca read from file:
+     ./Ca_PBE.UPF
+     MD5 check sum: 403a4c14b9e4d4dfdc3024c9a3812218
+     Pseudo is Ultrasoft + core correction, Zval = 10.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  845 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with  8 coefficients,  rinner =    1.500   1.500   1.500
+                                                       1.500   1.500
+
+     PseudoPot. # 2 for C  read from file:
+     ./C_PBE.UPF
+     MD5 check sum: d1aef80898a10debaa0f26306b886e00
+     Pseudo is Ultrasoft + core correction, Zval =  4.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  721 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with  8 coefficients,  rinner =    1.100   1.100   1.100
+
+
+     PseudoPot. # 3 for O  read from file:
+     ./O_PBE.UPF
+     MD5 check sum: 734c27235a0248c51dbae37a1fbe46ec
+     Pseudo is Ultrasoft + core correction, Zval =  6.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  737 points,  5 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+     Q(r) pseudized with  8 coefficients,  rinner =    0.900   0.900   0.900
+                                                       0.900   0.900
+
+     Mode symmetry, D_3d (-3m)  point group:
+
+
+     Electric field:
+     Dielectric constant
+     Born effective charges as d Force / d E
+
+
+     Atomic displacements:
+     There are   20 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      2 modes -  To be done
+
+     Representation     6      2 modes -  To be done
+
+     Representation     7      2 modes -  To be done
+
+     Representation     8      2 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      2 modes -  To be done
+
+     Representation    16      2 modes -  To be done
+
+     Representation    17      2 modes -  To be done
+
+     Representation    18      2 modes -  To be done
+
+     Representation    19      2 modes -  To be done
+
+     Representation    20      2 modes -  To be done
+
+
+
+     Alpha used in Ewald sum =   2.8000
+     PHONON       :   9m 8.16s CPU   9m16.86s WALL
+
+
+     Electric Fields Calculation
+
+      iter #   1 total cpu time :  1940.6 secs   av.it.:   6.2
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  1.059E-08
+
+      iter #   2 total cpu time :  2585.9 secs   av.it.:  13.9
+      thresh= 1.029E-05 alpha_mix =  0.700 |ddv_scf|^2 =  9.266E-09
+
+      iter #   3 total cpu time :  3013.8 secs   av.it.:   8.2
+      thresh= 9.626E-06 alpha_mix =  0.700 |ddv_scf|^2 =  2.153E-11
+
+      iter #   4 total cpu time :  3626.5 secs   av.it.:  13.0
+      thresh= 4.640E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.673E-12
+
+      iter #   5 total cpu time :  4255.0 secs   av.it.:  13.4
+      thresh= 1.635E-07 alpha_mix =  0.700 |ddv_scf|^2 =  3.688E-14
+
+      iter #   6 total cpu time :  4876.0 secs   av.it.:  13.0
+      thresh= 1.920E-08 alpha_mix =  0.700 |ddv_scf|^2 =  1.206E-15
+
+      iter #   7 total cpu time :  5514.7 secs   av.it.:  13.6
+      thresh= 3.473E-09 alpha_mix =  0.700 |ddv_scf|^2 =  1.014E-16
+
+      iter #   8 total cpu time :  6150.6 secs   av.it.:  13.4
+      thresh= 1.007E-09 alpha_mix =  0.700 |ddv_scf|^2 =  2.474E-17
+
+     End of electric fields calculation
+
+          Dielectric constant in cartesian axis 
+
+          (       2.922729235      -0.000000000       0.000000000 )
+          (      -0.000000000       2.922729235       0.000000000 )
+          (       0.000000000       0.000000000       2.321256179 )
+
+          Effective charges (d Force / dE) in cartesian axis without acoustic sum rule applied (asr)
+
+           atom      1   Ca Mean Z*:        2.49294
+      Ex  (        2.53015       -0.21133       -0.00000 )
+      Ey  (        0.21133        2.53015       -0.00000 )
+      Ez  (        0.00000       -0.00000        2.41851 )
+           atom      2   Ca Mean Z*:        2.49294
+      Ex  (        2.53015        0.21133        0.00000 )
+      Ey  (       -0.21133        2.53015       -0.00000 )
+      Ez  (       -0.00000       -0.00000        2.41851 )
+           atom      3   C  Mean Z*:        2.24275
+      Ex  (        3.24175       -0.00000        0.00000 )
+      Ey  (        0.00000        3.24175       -0.00000 )
+      Ez  (       -0.00000       -0.00000        0.24475 )
+           atom      4   C  Mean Z*:        2.24275
+      Ex  (        3.24175        0.00000        0.00000 )
+      Ey  (        0.00000        3.24175       -0.00000 )
+      Ez  (       -0.00000       -0.00000        0.24475 )
+           atom      5   O  Mean Z*:       -1.57956
+      Ex  (       -1.57307        0.60948       -0.19633 )
+      Ey  (        0.60948       -2.27684       -0.11335 )
+      Ez  (       -0.18520       -0.10693       -0.88878 )
+           atom      6   O  Mean Z*:       -1.57956
+      Ex  (       -2.62872        0.00000       -0.00000 )
+      Ey  (        0.00000       -1.22119        0.22670 )
+      Ez  (       -0.00000        0.21385       -0.88878 )
+           atom      7   O  Mean Z*:       -1.57956
+      Ex  (       -1.57307       -0.60948        0.19633 )
+      Ey  (       -0.60948       -2.27684       -0.11335 )
+      Ez  (        0.18520       -0.10693       -0.88878 )
+           atom      8   O  Mean Z*:       -1.57956
+      Ex  (       -2.62872       -0.00000       -0.00000 )
+      Ey  (        0.00000       -1.22119        0.22670 )
+      Ez  (       -0.00000        0.21385       -0.88878 )
+           atom      9   O  Mean Z*:       -1.57956
+      Ex  (       -1.57307       -0.60948        0.19633 )
+      Ey  (       -0.60948       -2.27684       -0.11335 )
+      Ez  (        0.18520       -0.10693       -0.88878 )
+           atom     10   O  Mean Z*:       -1.57956
+      Ex  (       -1.57307        0.60948       -0.19633 )
+      Ey  (        0.60948       -2.27684       -0.11335 )
+      Ez  (       -0.18520       -0.10693       -0.88878 )
+
+          Effective charges Sum: Mean:       -0.00600
+             -0.00592       -0.00000       -0.00000
+              0.00000       -0.00592       -0.00000
+             -0.00000       -0.00000       -0.00616
+
+          Effective charges (d Force / dE) in cartesian axis with asr applied: 
+           atom      1   Ca Mean Z*:        2.49354
+      E*x (        2.53074       -0.21133       -0.00000 )
+      E*y (        0.21133        2.53074       -0.00000 )
+      E*z (        0.00000       -0.00000        2.41913 )
+           atom      2   Ca Mean Z*:        2.49354
+      E*x (        2.53074        0.21133        0.00000 )
+      E*y (       -0.21133        2.53074       -0.00000 )
+      E*z (       -0.00000       -0.00000        2.41913 )
+           atom      3   C  Mean Z*:        2.24335
+      E*x (        3.24234       -0.00000        0.00000 )
+      E*y (        0.00000        3.24234        0.00000 )
+      E*z (        0.00000        0.00000        0.24537 )
+           atom      4   C  Mean Z*:        2.24335
+      E*x (        3.24234       -0.00000        0.00000 )
+      E*y (        0.00000        3.24234        0.00000 )
+      E*z (        0.00000        0.00000        0.24537 )
+           atom      5   O  Mean Z*:       -1.57896
+      E*x (       -1.57248        0.60948       -0.19633 )
+      E*y (        0.60948       -2.27624       -0.11335 )
+      E*z (       -0.18520       -0.10693       -0.88817 )
+           atom      6   O  Mean Z*:       -1.57896
+      E*x (       -2.62813        0.00000       -0.00000 )
+      E*y (        0.00000       -1.22059        0.22670 )
+      E*z (       -0.00000        0.21385       -0.88817 )
+           atom      7   O  Mean Z*:       -1.57896
+      E*x (       -1.57248       -0.60948        0.19633 )
+      E*y (       -0.60948       -2.27624       -0.11335 )
+      E*z (        0.18520       -0.10693       -0.88817 )
+           atom      8   O  Mean Z*:       -1.57896
+      E*x (       -2.62813       -0.00000       -0.00000 )
+      E*y (        0.00000       -1.22059        0.22670 )
+      E*z (       -0.00000        0.21385       -0.88817 )
+           atom      9   O  Mean Z*:       -1.57896
+      E*x (       -1.57248       -0.60948        0.19633 )
+      E*y (       -0.60948       -2.27624       -0.11335 )
+      E*z (        0.18520       -0.10693       -0.88817 )
+           atom     10   O  Mean Z*:       -1.57896
+      E*x (       -1.57248        0.60948       -0.19633 )
+      E*y (        0.60948       -2.27624       -0.11335 )
+      E*z (       -0.18520       -0.10693       -0.88817 )
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :  7828.9 secs   av.it.:   6.0
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  7.934E-07
+
+      iter #   2 total cpu time :  8024.2 secs   av.it.:  11.8
+      thresh= 8.907E-05 alpha_mix =  0.700 |ddv_scf|^2 =  4.345E-07
+
+      iter #   3 total cpu time :  8210.9 secs   av.it.:  11.8
+      thresh= 6.592E-05 alpha_mix =  0.700 |ddv_scf|^2 =  3.702E-09
+     kpoint   1 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   2 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   3 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   4 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   5 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   6 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   7 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   8 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint   9 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  10 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  11 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  12 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  13 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  14 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  15 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  16 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  17 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  18 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  19 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  20 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  21 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  22 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  23 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  24 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  25 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  26 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  27 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  28 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  29 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  30 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  31 sternheimer_kernel: root not converged, thresh <        NaN
+     kpoint  32 sternheimer_kernel: root not converged, thresh <        NaN
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine broyden (1):
+     factorization
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
