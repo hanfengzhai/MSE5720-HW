@@ -1,0 +1,64 @@
++ PREFIX=k11
++ PSEUDO_DIR=./pseudo_dir
++ INFILE=k11.in
++ OUTFILE=k11.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Inactive Modules:
+  1) python2
+
+The following have been reloaded with a version change:
+  1) impi/18.0.2 => impi/19.0.9     2) intel/18.0.2 => intel/19.1.1
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+The following have been reloaded with a version change:
+  1) impi/19.0.9 => impi/19.0.7
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ pw.x
++ rm '*.igk' '*.wfc*' k11.xml
+rm: cannot remove ‘*.igk’: No such file or directory
+rm: cannot remove ‘*.wfc*’: No such file or directory
++ rm -r k11.save
