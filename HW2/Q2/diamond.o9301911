@@ -1,0 +1,44 @@
+
+Inactive Modules:
+  1) python2
+
+The following have been reloaded with a version change:
+  1) impi/18.0.2 => impi/19.0.9     2) intel/18.0.2 => intel/19.1.1
+
+
+The following have been reloaded with a version change:
+  1) impi/19.0.9 => impi/19.0.7
+
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+slurmstepd: error: *** JOB 9301911 ON c455-004 CANCELLED AT 2022-03-14T19:04:41 ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+pw.x               0000000002C1751B  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B97069DD630  Unknown               Unknown  Unknown
+libmkl_avx512_mic  00002B9714FE034C  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B9714FBCDF0  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B9714F988E4  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B971368B3D2  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B97136D7EF2  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B97136D7CB8  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B9713792BE6  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B97134BC84C  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B97131D0540  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00002B96FF7BF8DC  mkl_dft_dfti_comp     Unknown  Unknown
+pw.x               0000000002125C92  Unknown               Unknown  Unknown
+pw.x               0000000002123A12  Unknown               Unknown  Unknown
+pw.x               0000000002117DBD  Unknown               Unknown  Unknown
+pw.x               00000000013324B9  Unknown               Unknown  Unknown
+pw.x               000000000118BD93  Unknown               Unknown  Unknown
+pw.x               0000000001189D63  Unknown               Unknown  Unknown
+pw.x               00000000015C4FC7  Unknown               Unknown  Unknown
+pw.x               0000000000E81024  Unknown               Unknown  Unknown
+pw.x               0000000000B71F0C  Unknown               Unknown  Unknown
+pw.x               00000000005D80F0  Unknown               Unknown  Unknown
+pw.x               00000000008E61C1  Unknown               Unknown  Unknown
+pw.x               00000000004098AE  Unknown               Unknown  Unknown
+pw.x               0000000000409712  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9707A38555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409629  Unknown               Unknown  Unknown

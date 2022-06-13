@@ -1,0 +1,47 @@
+
+Inactive Modules:
+  1) python2
+
+The following have been reloaded with a version change:
+  1) impi/18.0.2 => impi/19.0.9     2) intel/18.0.2 => intel/19.1.1
+
+
+The following have been reloaded with a version change:
+  1) impi/19.0.9 => impi/19.0.7
+
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+forrtl: severe (59): list-directed I/O syntax error, unit -5, file Internal List-Directed Read
+Image              PC                Routine            Line        Source             
+pw.x               0000000002C087BB  Unknown               Unknown  Unknown
+pw.x               0000000002C39232  Unknown               Unknown  Unknown
+pw.x               0000000002C37FB8  Unknown               Unknown  Unknown
+pw.x               0000000001D1C670  Unknown               Unknown  Unknown
+pw.x               0000000001A7CAD3  Unknown               Unknown  Unknown
+pw.x               000000000040989F  Unknown               Unknown  Unknown
+pw.x               0000000000409712  Unknown               Unknown  Unknown
+libc-2.17.so       00002B44089DE555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409629  Unknown               Unknown  Unknown
+forrtl: severe (59): list-directed I/O syntax error, unit -5, file Internal List-Directed Read
+Image              PC                Routine            Line        Source             
+pw.x               0000000002C087BB  Unknown               Unknown  Unknown
+pw.x               0000000002C39232  Unknown               Unknown  Unknown
+pw.x               0000000002C37FB8  Unknown               Unknown  Unknown
+pw.x               0000000001D1C670  Unknown               Unknown  Unknown
+pw.x               0000000001A7CAD3  Unknown               Unknown  Unknown
+pw.x               000000000040989F  Unknown               Unknown  Unknown
+pw.x               0000000000409712  Unknown               Unknown  Unknown
+libc-2.17.so       00002B614FE1C555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409629  Unknown               Unknown  Unknown
+forrtl: severe (59): list-directed I/O syntax error, unit -5, file Internal List-Directed Read
+Image              PC                Routine            Line        Source             
+pw.x               0000000002C087BB  Unknown               Unknown  Unknown
+pw.x               0000000002C39232  Unknown               Unknown  Unknown
+pw.x               0000000002C37FB8  Unknown               Unknown  Unknown
+pw.x               0000000001D1C670  Unknown               Unknown  Unknown
+pw.x               0000000001A7CAD3  Unknown               Unknown  Unknown
+pw.x               000000000040989F  Unknown               Unknown  Unknown
+pw.x               0000000000409712  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0885D9A555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409629  Unknown               Unknown  Unknown
