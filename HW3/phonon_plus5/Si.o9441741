@@ -1,0 +1,86 @@
++ x
+/tmp/slurmd/job9441741/slurm_script: line 11: x: command not found
++ PREFIX=Si
++ PSEUDO_DIR=./
++ INFILE=Si.in
++ OUTFILE=Si.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ pw.x
++ INFILE=Si.phon.in
++ OUTFILE=Si.phon.out
++ cat
++ ph.x -ndiag 1
+slurmstepd: error: *** JOB 9441741 ON c469-033 CANCELLED AT 2022-04-09T19:11:16 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+ph.x               0000000002CAFEDB  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B3B64B3C630  Unknown               Unknown  Unknown
+libmkl_avx512_mic  00002B3B760EAF1F  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B3B760C5DDA  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B3B760A18E4  mkl_dft_avx512_mi     Unknown  Unknown
+libmkl_avx512_mic  00002B3B742C1246  Unknown               Unknown  Unknown
+libmkl_avx512_mic  00002B3B742D9527  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00002B3B5D91E8DC  mkl_dft_dfti_comp     Unknown  Unknown
+ph.x               00000000021C4EE2  Unknown               Unknown  Unknown
+ph.x               00000000021C2C62  Unknown               Unknown  Unknown
+ph.x               00000000021B700D  Unknown               Unknown  Unknown
+ph.x               0000000001326EA9  Unknown               Unknown  Unknown
+ph.x               0000000000F33373  Unknown               Unknown  Unknown
+ph.x               0000000000F31343  Unknown               Unknown  Unknown
+ph.x               000000000162309A  Unknown               Unknown  Unknown
+ph.x               0000000000C47A6B  Unknown               Unknown  Unknown
+ph.x               0000000000C3D7E5  Unknown               Unknown  Unknown
+ph.x               00000000009A1C2C  Unknown               Unknown  Unknown
+ph.x               00000000008F7907  Unknown               Unknown  Unknown
+ph.x               00000000005FFA4C  Unknown               Unknown  Unknown
+ph.x               000000000041C631  Unknown               Unknown  Unknown
+ph.x               0000000000409734  Unknown               Unknown  Unknown
+ph.x               0000000000409692  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3B65B97555  __libc_start_main     Unknown  Unknown
+ph.x               00000000004095A9  Unknown               Unknown  Unknown
