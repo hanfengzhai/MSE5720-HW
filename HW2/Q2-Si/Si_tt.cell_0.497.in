@@ -1,0 +1,44 @@
+&CONTROL
+ calculation = 'relax',
+ restart_mode = 'from_scratch',
+ prefix='Si_elastic_isotropic',
+ pseudo_dir='./',
+ tstress=.true.,
+ tprnfor=.true.,
+/
+&SYSTEM
+ ibrav=0,
+ celldm(1)=10.19d0,
+ nat=2,
+ ntyp=1,
+ ecutwfc=30,
+ ecutrho=300,
+ occupations = 'fixed',
+/
+&ELECTRONS
+ conv_thr = 1.0D-8,
+ mixing_mode = 'plain',
+ mixing_beta = 0.7d0,
+ diagonalization = 'cg',
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press=0.1d0,
+/
+ATOMIC_SPECIES
+Si 28.0855d0 Si_LDA.UPF
+
+ATOMIC_POSITIONS crystal
+Si 0.d0 0.d0 0.d0
+Si 0.25d0 0.25d0 0.25d0
+
+K_POINTS automatic
+  8 8 8 0 0 0
+
+CELL_PARAMETERS alat 
+-0.497 0.d0 0.506
+0.d0 0.497 0.506
+-0.497 0.497 0.d0
