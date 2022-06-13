@@ -1,4 +1,4 @@
-# MSE5720-HW
+# Homework Files for Comput. Mat. Sci.
 Homework input & notebook files for Computational Materials Sciences ([MSE 5720](https://courses.cornell.edu/preview_course_nopop.php?catoid=31&coid=493002)). 
 
 <[HW1](https://hanfengzhai.net/file/HW1_MSE5720.ipynb)> | <[HW2](https://hanfengzhai.net/file/HW2_MSE5720.ipynb)> | <[HW3](https://hanfengzhai.net/file/HW3_MSE5720.ipynb)> | <[HW4](https://hanfengzhai.net/file/HW4_MSE5720_.ipynb)>
