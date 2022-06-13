@@ -1,0 +1,52 @@
++ PREFIX=pto_ener
++ PSEUDO_DIR=./
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ pw.x
+/tmp/slurmd/job9444831/slurm_script: line 74: syntax error near unexpected token `done'
+/tmp/slurmd/job9444831/slurm_script: line 74: `done'
