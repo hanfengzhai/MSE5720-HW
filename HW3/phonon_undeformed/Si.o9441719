@@ -1,0 +1,70 @@
++ x
+/tmp/slurmd/job9441719/slurm_script: line 11: x: command not found
++ PREFIX=Si
++ PSEUDO_DIR=./
++ INFILE=Si.in
++ OUTFILE=Si.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ pw.x
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c469-104.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
++ INFILE=Si.phon.in
++ OUTFILE=Si.phon.out
++ cat
++ ph.x -ndiag 1
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c469-104.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
