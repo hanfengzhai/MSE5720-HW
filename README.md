@@ -1,6 +1,6 @@
 # Homeworks for Computational Materials Sciences
 
-<img src=https://github.com/hanfengzhai/MSE5720-HW/HW1/mse5720.png width=300/>
+<img src=/HW1/mse5720.png width=300/>
 
 Homework input code, data & notebook files for Computational Materials Sciences ([MSE 5720](https://courses.cornell.edu/preview_course_nopop.php?catoid=31&coid=493002)). 
 
