@@ -1,0 +1,11 @@
+&input
+flfrc='silicon.fc',
+flfrq='silicon.freq',
+q_in_band_form=.true.,
+/
+5
+2.0 0.0 0.0 100
+1.5 0.0 0.5 100
+1.0 0.0 1.0 100
+1.0 1.0 1.0 100
+1.5 1.5 1.5 0
