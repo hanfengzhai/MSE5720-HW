@@ -1,0 +1,38 @@
++ x
+/tmp/slurmd/job9441729/slurm_script: line 11: x: command not found
++ PREFIX=Si_minus5
++ PSEUDO_DIR=./
++ INFILE=Si_minus5.in
++ OUTFILE=Si_minus5.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+slurmstepd: error: *** JOB 9441729 ON c469-033 CANCELLED AT 2022-04-09T17:07:32 ***
