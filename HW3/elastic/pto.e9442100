@@ -1,0 +1,30 @@
+
+Lmod is automatically replacing "mvapich2/2.3.6" with "impi/19.0.7".
+
+
+Lmod is automatically replacing "impi/19.0.7" with "mvapich2/2.3.6".
+
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c439-083.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c439-083.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c439-083.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
+[unset]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1
+:
+system msg for write_line failure : Bad file descriptor
+[c439-083.stampede2.tacc.utexas.edu:mpi_rank_0][MPIDI_CH3_Abort] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0: Bad file descriptor (9)
