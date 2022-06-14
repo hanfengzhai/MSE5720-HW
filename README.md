@@ -15,7 +15,7 @@ Citation
 A good way to cite this repo in LaTeX is:
 
 ```
-@Misc{,
+@Misc{zhai2022MSE5720,
     author = {Hanfeng Zhai},
     title = {Homeworks Archive for Computational Materials Sciences},
     year = {2022--},
